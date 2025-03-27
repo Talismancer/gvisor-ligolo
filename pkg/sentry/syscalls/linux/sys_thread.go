@@ -15,18 +15,18 @@
 package linux
 
 import (
-	"github.com/nicocha30/gvisor-ligolo/pkg/abi/linux"
-	"github.com/nicocha30/gvisor-ligolo/pkg/errors/linuxerr"
-	"github.com/nicocha30/gvisor-ligolo/pkg/fspath"
-	"github.com/nicocha30/gvisor-ligolo/pkg/hostarch"
-	"github.com/nicocha30/gvisor-ligolo/pkg/marshal/primitive"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/arch"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/kernel"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/kernel/sched"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/loader"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/seccheck"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/vfs"
-	"github.com/nicocha30/gvisor-ligolo/pkg/usermem"
+	"github.com/talismancer/gvisor-ligolo/pkg/abi/linux"
+	"github.com/talismancer/gvisor-ligolo/pkg/errors/linuxerr"
+	"github.com/talismancer/gvisor-ligolo/pkg/fspath"
+	"github.com/talismancer/gvisor-ligolo/pkg/hostarch"
+	"github.com/talismancer/gvisor-ligolo/pkg/marshal/primitive"
+	"github.com/talismancer/gvisor-ligolo/pkg/sentry/arch"
+	"github.com/talismancer/gvisor-ligolo/pkg/sentry/kernel"
+	"github.com/talismancer/gvisor-ligolo/pkg/sentry/kernel/sched"
+	"github.com/talismancer/gvisor-ligolo/pkg/sentry/loader"
+	"github.com/talismancer/gvisor-ligolo/pkg/sentry/seccheck"
+	"github.com/talismancer/gvisor-ligolo/pkg/sentry/vfs"
+	"github.com/talismancer/gvisor-ligolo/pkg/usermem"
 )
 
 var (

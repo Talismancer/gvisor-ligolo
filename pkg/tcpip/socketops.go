@@ -15,9 +15,9 @@
 package tcpip
 
 import (
-	"github.com/nicocha30/gvisor-ligolo/pkg/atomicbitops"
-	"github.com/nicocha30/gvisor-ligolo/pkg/buffer"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sync"
+	"github.com/talismancer/gvisor-ligolo/pkg/atomicbitops"
+	"github.com/talismancer/gvisor-ligolo/pkg/buffer"
+	"github.com/talismancer/gvisor-ligolo/pkg/sync"
 )
 
 // SocketOptionsHandler holds methods that help define endpoint specific

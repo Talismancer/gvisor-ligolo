@@ -18,12 +18,12 @@ import (
 	"math"
 	"time"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/abi/linux"
-	"github.com/nicocha30/gvisor-ligolo/pkg/errors/linuxerr"
-	"github.com/nicocha30/gvisor-ligolo/pkg/hostarch"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/arch"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/fsimpl/signalfd"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/kernel"
+	"github.com/talismancer/gvisor-ligolo/pkg/abi/linux"
+	"github.com/talismancer/gvisor-ligolo/pkg/errors/linuxerr"
+	"github.com/talismancer/gvisor-ligolo/pkg/hostarch"
+	"github.com/talismancer/gvisor-ligolo/pkg/sentry/arch"
+	"github.com/talismancer/gvisor-ligolo/pkg/sentry/fsimpl/signalfd"
+	"github.com/talismancer/gvisor-ligolo/pkg/sentry/kernel"
 )
 
 // "For a process to have permission to send a signal it must

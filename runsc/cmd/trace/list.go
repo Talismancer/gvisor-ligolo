@@ -19,10 +19,10 @@ import (
 	"fmt"
 
 	"github.com/google/subcommands"
-	"github.com/nicocha30/gvisor-ligolo/runsc/cmd/util"
-	"github.com/nicocha30/gvisor-ligolo/runsc/config"
-	"github.com/nicocha30/gvisor-ligolo/runsc/container"
-	"github.com/nicocha30/gvisor-ligolo/runsc/flag"
+	"github.com/talismancer/gvisor-ligolo/runsc/cmd/util"
+	"github.com/talismancer/gvisor-ligolo/runsc/config"
+	"github.com/talismancer/gvisor-ligolo/runsc/container"
+	"github.com/talismancer/gvisor-ligolo/runsc/flag"
 )
 
 // list implements subcommands.Command for the "list" command.

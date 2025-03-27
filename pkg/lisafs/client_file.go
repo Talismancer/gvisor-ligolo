@@ -18,11 +18,11 @@ import (
 	"fmt"
 	"io"
 
+	"github.com/talismancer/gvisor-ligolo/pkg/abi/linux"
+	"github.com/talismancer/gvisor-ligolo/pkg/context"
+	"github.com/talismancer/gvisor-ligolo/pkg/log"
+	"github.com/talismancer/gvisor-ligolo/pkg/marshal/primitive"
 	"golang.org/x/sys/unix"
-	"github.com/nicocha30/gvisor-ligolo/pkg/abi/linux"
-	"github.com/nicocha30/gvisor-ligolo/pkg/context"
-	"github.com/nicocha30/gvisor-ligolo/pkg/log"
-	"github.com/nicocha30/gvisor-ligolo/pkg/marshal/primitive"
 )
 
 // ClientFD is a wrapper around FDID that provides client-side utilities

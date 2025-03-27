@@ -65,13 +65,13 @@ package kernel
 // """
 
 import (
-	"github.com/nicocha30/gvisor-ligolo/pkg/abi/linux"
-	"github.com/nicocha30/gvisor-ligolo/pkg/cleanup"
-	"github.com/nicocha30/gvisor-ligolo/pkg/errors/linuxerr"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/mm"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/seccheck"
-	pb "github.com/nicocha30/gvisor-ligolo/pkg/sentry/seccheck/points/points_go_proto"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/vfs"
+	"github.com/talismancer/gvisor-ligolo/pkg/abi/linux"
+	"github.com/talismancer/gvisor-ligolo/pkg/cleanup"
+	"github.com/talismancer/gvisor-ligolo/pkg/errors/linuxerr"
+	"github.com/talismancer/gvisor-ligolo/pkg/sentry/mm"
+	"github.com/talismancer/gvisor-ligolo/pkg/sentry/seccheck"
+	pb "github.com/talismancer/gvisor-ligolo/pkg/sentry/seccheck/points/points_go_proto"
+	"github.com/talismancer/gvisor-ligolo/pkg/sentry/vfs"
 )
 
 // execStop is a TaskStop that a task sets on itself when it wants to execve

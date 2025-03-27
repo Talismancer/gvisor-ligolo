@@ -18,10 +18,10 @@ import (
 	"fmt"
 	"os"
 
+	"github.com/talismancer/gvisor-ligolo/pkg/atomicbitops"
+	"github.com/talismancer/gvisor-ligolo/pkg/bits"
+	"github.com/talismancer/gvisor-ligolo/pkg/memutil"
 	"golang.org/x/sys/unix"
-	"github.com/nicocha30/gvisor-ligolo/pkg/atomicbitops"
-	"github.com/nicocha30/gvisor-ligolo/pkg/bits"
-	"github.com/nicocha30/gvisor-ligolo/pkg/memutil"
 )
 
 // MemoryKind represents a type of memory used by the application.

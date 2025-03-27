@@ -21,11 +21,11 @@ import (
 	"fmt"
 	"strings"
 
+	"github.com/talismancer/gvisor-ligolo/pkg/abi/linux"
+	"github.com/talismancer/gvisor-ligolo/pkg/seccomp"
+	"github.com/talismancer/gvisor-ligolo/pkg/sentry/arch"
+	"github.com/talismancer/gvisor-ligolo/pkg/sentry/platform/systrap/sysmsg"
 	"golang.org/x/sys/unix"
-	"github.com/nicocha30/gvisor-ligolo/pkg/abi/linux"
-	"github.com/nicocha30/gvisor-ligolo/pkg/seccomp"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/arch"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/platform/systrap/sysmsg"
 )
 
 const (

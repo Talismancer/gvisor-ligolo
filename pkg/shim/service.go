@@ -48,15 +48,15 @@ import (
 	"github.com/gogo/protobuf/types"
 	specs "github.com/opencontainers/runtime-spec/specs-go"
 	"github.com/sirupsen/logrus"
+	"github.com/talismancer/gvisor-ligolo/pkg/cleanup"
+	v14 "github.com/talismancer/gvisor-ligolo/pkg/shim/runtimeoptions/v14"
 	"golang.org/x/sys/unix"
-	"github.com/nicocha30/gvisor-ligolo/pkg/cleanup"
-	"github.com/nicocha30/gvisor-ligolo/pkg/shim/runtimeoptions/v14"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/shim/proc"
-	"github.com/nicocha30/gvisor-ligolo/pkg/shim/runsc"
-	"github.com/nicocha30/gvisor-ligolo/pkg/shim/runtimeoptions"
-	"github.com/nicocha30/gvisor-ligolo/pkg/shim/utils"
-	"github.com/nicocha30/gvisor-ligolo/runsc/specutils"
+	"github.com/talismancer/gvisor-ligolo/pkg/shim/proc"
+	"github.com/talismancer/gvisor-ligolo/pkg/shim/runsc"
+	"github.com/talismancer/gvisor-ligolo/pkg/shim/runtimeoptions"
+	"github.com/talismancer/gvisor-ligolo/pkg/shim/utils"
+	"github.com/talismancer/gvisor-ligolo/runsc/specutils"
 )
 
 var (

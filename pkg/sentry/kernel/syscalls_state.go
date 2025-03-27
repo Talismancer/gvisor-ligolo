@@ -17,8 +17,8 @@ package kernel
 import (
 	"fmt"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/abi"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/arch"
+	"github.com/talismancer/gvisor-ligolo/pkg/abi"
+	"github.com/talismancer/gvisor-ligolo/pkg/sentry/arch"
 )
 
 // syscallTableInfo is used to reload the SyscallTable.

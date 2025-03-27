@@ -20,12 +20,12 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/abi/linux"
-	"github.com/nicocha30/gvisor-ligolo/pkg/cpuid"
-	"github.com/nicocha30/gvisor-ligolo/pkg/hostarch"
-	"github.com/nicocha30/gvisor-ligolo/pkg/marshal"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/arch/fpu"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/limits"
+	"github.com/talismancer/gvisor-ligolo/pkg/abi/linux"
+	"github.com/talismancer/gvisor-ligolo/pkg/cpuid"
+	"github.com/talismancer/gvisor-ligolo/pkg/hostarch"
+	"github.com/talismancer/gvisor-ligolo/pkg/marshal"
+	"github.com/talismancer/gvisor-ligolo/pkg/sentry/arch/fpu"
+	"github.com/talismancer/gvisor-ligolo/pkg/sentry/limits"
 )
 
 // Arch describes an architecture.

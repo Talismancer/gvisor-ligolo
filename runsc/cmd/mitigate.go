@@ -22,10 +22,10 @@ import (
 	"runtime"
 
 	"github.com/google/subcommands"
-	"github.com/nicocha30/gvisor-ligolo/pkg/log"
-	"github.com/nicocha30/gvisor-ligolo/runsc/cmd/util"
-	"github.com/nicocha30/gvisor-ligolo/runsc/flag"
-	"github.com/nicocha30/gvisor-ligolo/runsc/mitigate"
+	"github.com/talismancer/gvisor-ligolo/pkg/log"
+	"github.com/talismancer/gvisor-ligolo/runsc/cmd/util"
+	"github.com/talismancer/gvisor-ligolo/runsc/flag"
+	"github.com/talismancer/gvisor-ligolo/runsc/mitigate"
 )
 
 const (

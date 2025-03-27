@@ -19,8 +19,8 @@ package primitive
 import (
 	"io"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/hostarch"
-	"github.com/nicocha30/gvisor-ligolo/pkg/marshal"
+	"github.com/talismancer/gvisor-ligolo/pkg/hostarch"
+	"github.com/talismancer/gvisor-ligolo/pkg/marshal"
 )
 
 // Int8 is a marshal.Marshallable implementation for int8.

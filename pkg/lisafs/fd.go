@@ -15,11 +15,11 @@
 package lisafs
 
 import (
+	"github.com/talismancer/gvisor-ligolo/pkg/abi/linux"
+	"github.com/talismancer/gvisor-ligolo/pkg/context"
+	"github.com/talismancer/gvisor-ligolo/pkg/refs"
+	"github.com/talismancer/gvisor-ligolo/pkg/sync"
 	"golang.org/x/sys/unix"
-	"github.com/nicocha30/gvisor-ligolo/pkg/abi/linux"
-	"github.com/nicocha30/gvisor-ligolo/pkg/context"
-	"github.com/nicocha30/gvisor-ligolo/pkg/refs"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sync"
 )
 
 // FDID (file descriptor identifier) is used to identify FDs on a connection.

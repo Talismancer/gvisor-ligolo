@@ -18,11 +18,11 @@ import (
 	"fmt"
 	"io"
 
+	"github.com/talismancer/gvisor-ligolo/pkg/fdnotifier"
+	"github.com/talismancer/gvisor-ligolo/pkg/hostarch"
+	"github.com/talismancer/gvisor-ligolo/pkg/safemem"
+	"github.com/talismancer/gvisor-ligolo/pkg/sentry/hostfd"
 	"golang.org/x/sys/unix"
-	"github.com/nicocha30/gvisor-ligolo/pkg/fdnotifier"
-	"github.com/nicocha30/gvisor-ligolo/pkg/hostarch"
-	"github.com/nicocha30/gvisor-ligolo/pkg/safemem"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/hostfd"
 )
 
 // beforeSave is invoked by stateify.

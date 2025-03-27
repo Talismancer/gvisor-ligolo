@@ -29,13 +29,13 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/abi/linux"
-	"github.com/nicocha30/gvisor-ligolo/pkg/errors/linuxerr"
-	"github.com/nicocha30/gvisor-ligolo/pkg/log"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/kernel/auth"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/seccheck"
-	pb "github.com/nicocha30/gvisor-ligolo/pkg/sentry/seccheck/points/points_go_proto"
-	"github.com/nicocha30/gvisor-ligolo/pkg/waiter"
+	"github.com/talismancer/gvisor-ligolo/pkg/abi/linux"
+	"github.com/talismancer/gvisor-ligolo/pkg/errors/linuxerr"
+	"github.com/talismancer/gvisor-ligolo/pkg/log"
+	"github.com/talismancer/gvisor-ligolo/pkg/sentry/kernel/auth"
+	"github.com/talismancer/gvisor-ligolo/pkg/sentry/seccheck"
+	pb "github.com/talismancer/gvisor-ligolo/pkg/sentry/seccheck/points/points_go_proto"
+	"github.com/talismancer/gvisor-ligolo/pkg/waiter"
 )
 
 // TaskExitState represents a step in the task exit path.

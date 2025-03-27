@@ -22,8 +22,8 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/state"
-	"github.com/nicocha30/gvisor-ligolo/pkg/state/wire"
+	"github.com/talismancer/gvisor-ligolo/pkg/state"
+	"github.com/talismancer/gvisor-ligolo/pkg/state/wire"
 )
 
 type printer struct {

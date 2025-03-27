@@ -25,10 +25,10 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/log"
-	"github.com/nicocha30/gvisor-ligolo/pkg/refs"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/watchdog"
-	"github.com/nicocha30/gvisor-ligolo/runsc/flag"
+	"github.com/talismancer/gvisor-ligolo/pkg/log"
+	"github.com/talismancer/gvisor-ligolo/pkg/refs"
+	"github.com/talismancer/gvisor-ligolo/pkg/sentry/watchdog"
+	"github.com/talismancer/gvisor-ligolo/runsc/flag"
 )
 
 // RegisterFlags registers flags used to populate Config.

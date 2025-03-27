@@ -18,15 +18,15 @@ package route
 import (
 	"bytes"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/abi/linux"
-	"github.com/nicocha30/gvisor-ligolo/pkg/context"
-	"github.com/nicocha30/gvisor-ligolo/pkg/errors/linuxerr"
-	"github.com/nicocha30/gvisor-ligolo/pkg/marshal/primitive"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/inet"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/kernel"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/kernel/auth"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/socket/netlink"
-	"github.com/nicocha30/gvisor-ligolo/pkg/syserr"
+	"github.com/talismancer/gvisor-ligolo/pkg/abi/linux"
+	"github.com/talismancer/gvisor-ligolo/pkg/context"
+	"github.com/talismancer/gvisor-ligolo/pkg/errors/linuxerr"
+	"github.com/talismancer/gvisor-ligolo/pkg/marshal/primitive"
+	"github.com/talismancer/gvisor-ligolo/pkg/sentry/inet"
+	"github.com/talismancer/gvisor-ligolo/pkg/sentry/kernel"
+	"github.com/talismancer/gvisor-ligolo/pkg/sentry/kernel/auth"
+	"github.com/talismancer/gvisor-ligolo/pkg/sentry/socket/netlink"
+	"github.com/talismancer/gvisor-ligolo/pkg/syserr"
 )
 
 // commandKind describes the operational class of a message type.

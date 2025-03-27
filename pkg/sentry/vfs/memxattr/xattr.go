@@ -19,11 +19,11 @@ package memxattr
 import (
 	"strings"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/abi/linux"
-	"github.com/nicocha30/gvisor-ligolo/pkg/errors/linuxerr"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/kernel/auth"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/vfs"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sync"
+	"github.com/talismancer/gvisor-ligolo/pkg/abi/linux"
+	"github.com/talismancer/gvisor-ligolo/pkg/errors/linuxerr"
+	"github.com/talismancer/gvisor-ligolo/pkg/sentry/kernel/auth"
+	"github.com/talismancer/gvisor-ligolo/pkg/sentry/vfs"
+	"github.com/talismancer/gvisor-ligolo/pkg/sync"
 )
 
 // SimpleExtendedAttributes implements extended attributes using a map of

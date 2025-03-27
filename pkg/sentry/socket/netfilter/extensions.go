@@ -17,12 +17,12 @@ package netfilter
 import (
 	"fmt"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/abi/linux"
-	"github.com/nicocha30/gvisor-ligolo/pkg/bits"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/kernel"
-	"github.com/nicocha30/gvisor-ligolo/pkg/syserr"
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip"
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/stack"
+	"github.com/talismancer/gvisor-ligolo/pkg/abi/linux"
+	"github.com/talismancer/gvisor-ligolo/pkg/bits"
+	"github.com/talismancer/gvisor-ligolo/pkg/sentry/kernel"
+	"github.com/talismancer/gvisor-ligolo/pkg/syserr"
+	"github.com/talismancer/gvisor-ligolo/pkg/tcpip"
+	"github.com/talismancer/gvisor-ligolo/pkg/tcpip/stack"
 )
 
 // matchMaker knows how to (un)marshal the matcher named name().

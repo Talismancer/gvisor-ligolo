@@ -18,9 +18,9 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/atomicbitops"
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip"
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/header"
+	"github.com/talismancer/gvisor-ligolo/pkg/atomicbitops"
+	"github.com/talismancer/gvisor-ligolo/pkg/tcpip"
+	"github.com/talismancer/gvisor-ligolo/pkg/tcpip/header"
 )
 
 type linkResolver struct {

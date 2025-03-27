@@ -18,7 +18,7 @@
 package systrap
 
 import (
-	"github.com/nicocha30/gvisor-ligolo/pkg/sync"
+	"github.com/talismancer/gvisor-ligolo/pkg/sync"
 )
 
 func yield() {

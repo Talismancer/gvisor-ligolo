@@ -17,11 +17,11 @@ package netfilter
 import (
 	"fmt"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/abi/linux"
-	"github.com/nicocha30/gvisor-ligolo/pkg/marshal"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/kernel"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/kernel/auth"
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/stack"
+	"github.com/talismancer/gvisor-ligolo/pkg/abi/linux"
+	"github.com/talismancer/gvisor-ligolo/pkg/marshal"
+	"github.com/talismancer/gvisor-ligolo/pkg/sentry/kernel"
+	"github.com/talismancer/gvisor-ligolo/pkg/sentry/kernel/auth"
+	"github.com/talismancer/gvisor-ligolo/pkg/tcpip/stack"
 )
 
 const matcherNameOwner = "owner"

@@ -27,15 +27,15 @@ import (
 	"github.com/cilium/ebpf"
 	"github.com/cilium/ebpf/link"
 	specs "github.com/opencontainers/runtime-spec/specs-go"
+	"github.com/talismancer/gvisor-ligolo/pkg/log"
+	"github.com/talismancer/gvisor-ligolo/pkg/tcpip/header"
+	"github.com/talismancer/gvisor-ligolo/pkg/tcpip/stack"
+	"github.com/talismancer/gvisor-ligolo/pkg/urpc"
+	"github.com/talismancer/gvisor-ligolo/runsc/boot"
+	"github.com/talismancer/gvisor-ligolo/runsc/config"
+	"github.com/talismancer/gvisor-ligolo/runsc/specutils"
 	"github.com/vishvananda/netlink"
 	"golang.org/x/sys/unix"
-	"github.com/nicocha30/gvisor-ligolo/pkg/log"
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/header"
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/stack"
-	"github.com/nicocha30/gvisor-ligolo/pkg/urpc"
-	"github.com/nicocha30/gvisor-ligolo/runsc/boot"
-	"github.com/nicocha30/gvisor-ligolo/runsc/config"
-	"github.com/nicocha30/gvisor-ligolo/runsc/specutils"
 )
 
 // setupNetwork configures the network stack to mimic the local network

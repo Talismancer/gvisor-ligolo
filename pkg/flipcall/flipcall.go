@@ -20,9 +20,9 @@ import (
 	"fmt"
 	"math"
 
+	"github.com/talismancer/gvisor-ligolo/pkg/atomicbitops"
+	"github.com/talismancer/gvisor-ligolo/pkg/memutil"
 	"golang.org/x/sys/unix"
-	"github.com/nicocha30/gvisor-ligolo/pkg/atomicbitops"
-	"github.com/nicocha30/gvisor-ligolo/pkg/memutil"
 )
 
 // An Endpoint provides the ability to synchronously transfer data and control

@@ -18,9 +18,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip"
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/stack"
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/transport"
+	"github.com/talismancer/gvisor-ligolo/pkg/tcpip"
+	"github.com/talismancer/gvisor-ligolo/pkg/tcpip/stack"
+	"github.com/talismancer/gvisor-ligolo/pkg/tcpip/transport"
 )
 
 // saveReceivedAt is invoked by stateify.

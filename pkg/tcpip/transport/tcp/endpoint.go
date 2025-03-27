@@ -24,17 +24,17 @@ import (
 	"strings"
 	"time"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/atomicbitops"
-	"github.com/nicocha30/gvisor-ligolo/pkg/buffer"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sleep"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sync"
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip"
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/hash/jenkins"
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/header"
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/ports"
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/seqnum"
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/stack"
-	"github.com/nicocha30/gvisor-ligolo/pkg/waiter"
+	"github.com/talismancer/gvisor-ligolo/pkg/atomicbitops"
+	"github.com/talismancer/gvisor-ligolo/pkg/buffer"
+	"github.com/talismancer/gvisor-ligolo/pkg/sleep"
+	"github.com/talismancer/gvisor-ligolo/pkg/sync"
+	"github.com/talismancer/gvisor-ligolo/pkg/tcpip"
+	"github.com/talismancer/gvisor-ligolo/pkg/tcpip/hash/jenkins"
+	"github.com/talismancer/gvisor-ligolo/pkg/tcpip/header"
+	"github.com/talismancer/gvisor-ligolo/pkg/tcpip/ports"
+	"github.com/talismancer/gvisor-ligolo/pkg/tcpip/seqnum"
+	"github.com/talismancer/gvisor-ligolo/pkg/tcpip/stack"
+	"github.com/talismancer/gvisor-ligolo/pkg/waiter"
 )
 
 // EndpointState represents the state of a TCP endpoint.

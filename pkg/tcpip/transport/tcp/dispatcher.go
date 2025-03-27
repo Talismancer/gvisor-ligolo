@@ -19,13 +19,13 @@ import (
 	"fmt"
 	"math/rand"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/sleep"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sync"
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip"
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/hash/jenkins"
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/header"
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/stack"
-	"github.com/nicocha30/gvisor-ligolo/pkg/waiter"
+	"github.com/talismancer/gvisor-ligolo/pkg/sleep"
+	"github.com/talismancer/gvisor-ligolo/pkg/sync"
+	"github.com/talismancer/gvisor-ligolo/pkg/tcpip"
+	"github.com/talismancer/gvisor-ligolo/pkg/tcpip/hash/jenkins"
+	"github.com/talismancer/gvisor-ligolo/pkg/tcpip/header"
+	"github.com/talismancer/gvisor-ligolo/pkg/tcpip/stack"
+	"github.com/talismancer/gvisor-ligolo/pkg/waiter"
 )
 
 // epQueue is a queue of endpoints.

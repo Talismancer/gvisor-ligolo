@@ -18,7 +18,7 @@ package linewriter
 import (
 	"bytes"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/sync"
+	"github.com/talismancer/gvisor-ligolo/pkg/sync"
 )
 
 // Writer is an io.Writer which buffers input, flushing

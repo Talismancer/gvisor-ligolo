@@ -18,8 +18,8 @@
 package kvm
 
 import (
-	"github.com/nicocha30/gvisor-ligolo/pkg/ring0"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/arch"
+	"github.com/talismancer/gvisor-ligolo/pkg/ring0"
+	"github.com/talismancer/gvisor-ligolo/pkg/sentry/arch"
 )
 
 type kvmOneReg struct {

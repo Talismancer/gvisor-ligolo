@@ -17,11 +17,11 @@ package boot
 import (
 	"fmt"
 
+	"github.com/talismancer/gvisor-ligolo/pkg/abi"
+	"github.com/talismancer/gvisor-ligolo/pkg/sentry/arch"
+	rpb "github.com/talismancer/gvisor-ligolo/pkg/sentry/arch/registers_go_proto"
+	"github.com/talismancer/gvisor-ligolo/pkg/sentry/strace"
 	"golang.org/x/sys/unix"
-	"github.com/nicocha30/gvisor-ligolo/pkg/abi"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/arch"
-	rpb "github.com/nicocha30/gvisor-ligolo/pkg/sentry/arch/registers_go_proto"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/strace"
 )
 
 const (

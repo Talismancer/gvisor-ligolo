@@ -25,16 +25,16 @@ import (
 	"path/filepath"
 	"strconv"
 
+	"github.com/talismancer/gvisor-ligolo/pkg/abi/linux"
+	"github.com/talismancer/gvisor-ligolo/pkg/atomicbitops"
+	"github.com/talismancer/gvisor-ligolo/pkg/cleanup"
+	rwfd "github.com/talismancer/gvisor-ligolo/pkg/fd"
+	"github.com/talismancer/gvisor-ligolo/pkg/fsutil"
+	"github.com/talismancer/gvisor-ligolo/pkg/lisafs"
+	"github.com/talismancer/gvisor-ligolo/pkg/log"
+	"github.com/talismancer/gvisor-ligolo/pkg/marshal/primitive"
+	"github.com/talismancer/gvisor-ligolo/runsc/config"
 	"golang.org/x/sys/unix"
-	"github.com/nicocha30/gvisor-ligolo/pkg/abi/linux"
-	"github.com/nicocha30/gvisor-ligolo/pkg/atomicbitops"
-	"github.com/nicocha30/gvisor-ligolo/pkg/cleanup"
-	rwfd "github.com/nicocha30/gvisor-ligolo/pkg/fd"
-	"github.com/nicocha30/gvisor-ligolo/pkg/fsutil"
-	"github.com/nicocha30/gvisor-ligolo/pkg/lisafs"
-	"github.com/nicocha30/gvisor-ligolo/pkg/log"
-	"github.com/nicocha30/gvisor-ligolo/pkg/marshal/primitive"
-	"github.com/nicocha30/gvisor-ligolo/runsc/config"
 )
 
 // LINT.IfChange

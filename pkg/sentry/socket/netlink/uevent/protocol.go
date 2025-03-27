@@ -19,11 +19,11 @@
 package uevent
 
 import (
-	"github.com/nicocha30/gvisor-ligolo/pkg/abi/linux"
-	"github.com/nicocha30/gvisor-ligolo/pkg/context"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/kernel"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/socket/netlink"
-	"github.com/nicocha30/gvisor-ligolo/pkg/syserr"
+	"github.com/talismancer/gvisor-ligolo/pkg/abi/linux"
+	"github.com/talismancer/gvisor-ligolo/pkg/context"
+	"github.com/talismancer/gvisor-ligolo/pkg/sentry/kernel"
+	"github.com/talismancer/gvisor-ligolo/pkg/sentry/socket/netlink"
+	"github.com/talismancer/gvisor-ligolo/pkg/syserr"
 )
 
 // Protocol implements netlink.Protocol.

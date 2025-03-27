@@ -21,14 +21,14 @@ package nvproxy
 import (
 	"fmt"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/abi/nvgpu"
-	"github.com/nicocha30/gvisor-ligolo/pkg/context"
-	"github.com/nicocha30/gvisor-ligolo/pkg/hostarch"
-	"github.com/nicocha30/gvisor-ligolo/pkg/log"
-	"github.com/nicocha30/gvisor-ligolo/pkg/marshal"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/fsimpl/devtmpfs"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/mm"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/vfs"
+	"github.com/talismancer/gvisor-ligolo/pkg/abi/nvgpu"
+	"github.com/talismancer/gvisor-ligolo/pkg/context"
+	"github.com/talismancer/gvisor-ligolo/pkg/hostarch"
+	"github.com/talismancer/gvisor-ligolo/pkg/log"
+	"github.com/talismancer/gvisor-ligolo/pkg/marshal"
+	"github.com/talismancer/gvisor-ligolo/pkg/sentry/fsimpl/devtmpfs"
+	"github.com/talismancer/gvisor-ligolo/pkg/sentry/mm"
+	"github.com/talismancer/gvisor-ligolo/pkg/sentry/vfs"
 )
 
 // Register registers all devices implemented by this package in vfsObj.

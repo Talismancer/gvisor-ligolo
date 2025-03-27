@@ -20,9 +20,9 @@ package linuxerr
 import (
 	"fmt"
 
+	"github.com/talismancer/gvisor-ligolo/pkg/abi/linux/errno"
+	"github.com/talismancer/gvisor-ligolo/pkg/errors"
 	"golang.org/x/sys/unix"
-	"github.com/nicocha30/gvisor-ligolo/pkg/abi/linux/errno"
-	"github.com/nicocha30/gvisor-ligolo/pkg/errors"
 )
 
 const maxErrno uint32 = errno.EHWPOISON + 1

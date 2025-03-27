@@ -17,7 +17,7 @@ package pagetables
 import (
 	"unsafe"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/hostarch"
+	"github.com/talismancer/gvisor-ligolo/pkg/hostarch"
 )
 
 // newAlignedPTEs returns a set of aligned PTEs.

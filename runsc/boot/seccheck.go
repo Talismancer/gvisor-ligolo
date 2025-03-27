@@ -19,12 +19,12 @@ import (
 	"io"
 	"os"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/fd"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/seccheck"
+	"github.com/talismancer/gvisor-ligolo/pkg/fd"
+	"github.com/talismancer/gvisor-ligolo/pkg/sentry/seccheck"
 
 	// Register supported of sinks.
-	_ "github.com/nicocha30/gvisor-ligolo/pkg/sentry/seccheck/sinks/null"
-	_ "github.com/nicocha30/gvisor-ligolo/pkg/sentry/seccheck/sinks/remote"
+	_ "github.com/talismancer/gvisor-ligolo/pkg/sentry/seccheck/sinks/null"
+	_ "github.com/talismancer/gvisor-ligolo/pkg/sentry/seccheck/sinks/remote"
 )
 
 // InitConfig represents the configuration to apply during pod creation. For

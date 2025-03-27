@@ -17,9 +17,9 @@ package memdev
 import (
 	"io"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/context"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/vfs"
-	"github.com/nicocha30/gvisor-ligolo/pkg/usermem"
+	"github.com/talismancer/gvisor-ligolo/pkg/context"
+	"github.com/talismancer/gvisor-ligolo/pkg/sentry/vfs"
+	"github.com/talismancer/gvisor-ligolo/pkg/usermem"
 )
 
 const nullDevMinor = 3

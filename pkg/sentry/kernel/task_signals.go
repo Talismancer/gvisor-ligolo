@@ -20,14 +20,14 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/abi/linux"
-	"github.com/nicocha30/gvisor-ligolo/pkg/errors/linuxerr"
-	"github.com/nicocha30/gvisor-ligolo/pkg/eventchannel"
-	"github.com/nicocha30/gvisor-ligolo/pkg/hostarch"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/arch"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/kernel/auth"
-	ucspb "github.com/nicocha30/gvisor-ligolo/pkg/sentry/kernel/uncaught_signal_go_proto"
-	"github.com/nicocha30/gvisor-ligolo/pkg/waiter"
+	"github.com/talismancer/gvisor-ligolo/pkg/abi/linux"
+	"github.com/talismancer/gvisor-ligolo/pkg/errors/linuxerr"
+	"github.com/talismancer/gvisor-ligolo/pkg/eventchannel"
+	"github.com/talismancer/gvisor-ligolo/pkg/hostarch"
+	"github.com/talismancer/gvisor-ligolo/pkg/sentry/arch"
+	"github.com/talismancer/gvisor-ligolo/pkg/sentry/kernel/auth"
+	ucspb "github.com/talismancer/gvisor-ligolo/pkg/sentry/kernel/uncaught_signal_go_proto"
+	"github.com/talismancer/gvisor-ligolo/pkg/waiter"
 )
 
 // SignalAction is an internal signal action.

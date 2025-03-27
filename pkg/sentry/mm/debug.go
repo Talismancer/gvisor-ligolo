@@ -18,7 +18,7 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/context"
+	"github.com/talismancer/gvisor-ligolo/pkg/context"
 )
 
 const (

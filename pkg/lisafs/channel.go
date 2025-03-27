@@ -19,10 +19,10 @@ import (
 	"math"
 	"runtime"
 
+	"github.com/talismancer/gvisor-ligolo/pkg/fdchannel"
+	"github.com/talismancer/gvisor-ligolo/pkg/flipcall"
+	"github.com/talismancer/gvisor-ligolo/pkg/log"
 	"golang.org/x/sys/unix"
-	"github.com/nicocha30/gvisor-ligolo/pkg/fdchannel"
-	"github.com/nicocha30/gvisor-ligolo/pkg/flipcall"
-	"github.com/nicocha30/gvisor-ligolo/pkg/log"
 )
 
 var (

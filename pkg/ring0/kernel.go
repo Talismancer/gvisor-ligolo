@@ -15,7 +15,7 @@
 package ring0
 
 import (
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/arch/fpu"
+	"github.com/talismancer/gvisor-ligolo/pkg/sentry/arch/fpu"
 )
 
 // Init initializes a new kernel.

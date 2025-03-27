@@ -19,13 +19,13 @@ import (
 	"io"
 	"sync"
 
+	"github.com/talismancer/gvisor-ligolo/pkg/cleanup"
+	"github.com/talismancer/gvisor-ligolo/pkg/context"
+	"github.com/talismancer/gvisor-ligolo/pkg/errors/linuxerr"
+	fileDescriptor "github.com/talismancer/gvisor-ligolo/pkg/fd"
+	"github.com/talismancer/gvisor-ligolo/pkg/fdnotifier"
+	"github.com/talismancer/gvisor-ligolo/pkg/waiter"
 	"golang.org/x/sys/unix"
-	"github.com/nicocha30/gvisor-ligolo/pkg/cleanup"
-	"github.com/nicocha30/gvisor-ligolo/pkg/context"
-	"github.com/nicocha30/gvisor-ligolo/pkg/errors/linuxerr"
-	fileDescriptor "github.com/nicocha30/gvisor-ligolo/pkg/fd"
-	"github.com/nicocha30/gvisor-ligolo/pkg/fdnotifier"
-	"github.com/nicocha30/gvisor-ligolo/pkg/waiter"
 )
 
 var (

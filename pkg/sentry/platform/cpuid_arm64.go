@@ -18,8 +18,8 @@
 package platform
 
 import (
-	"github.com/nicocha30/gvisor-ligolo/pkg/context"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/arch"
+	"github.com/talismancer/gvisor-ligolo/pkg/context"
+	"github.com/talismancer/gvisor-ligolo/pkg/sentry/arch"
 )
 
 // TryCPUIDEmulate always returns false: there is no cpuid.

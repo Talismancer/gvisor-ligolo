@@ -19,10 +19,10 @@ import (
 	"fmt"
 
 	"github.com/google/subcommands"
+	"github.com/talismancer/gvisor-ligolo/pkg/metric"
+	"github.com/talismancer/gvisor-ligolo/runsc/cmd/util"
+	"github.com/talismancer/gvisor-ligolo/runsc/flag"
 	"google.golang.org/protobuf/encoding/prototext"
-	"github.com/nicocha30/gvisor-ligolo/pkg/metric"
-	"github.com/nicocha30/gvisor-ligolo/runsc/cmd/util"
-	"github.com/nicocha30/gvisor-ligolo/runsc/flag"
 )
 
 // MetricMetadata implements subcommands.Command for the "metric-metadata" command.

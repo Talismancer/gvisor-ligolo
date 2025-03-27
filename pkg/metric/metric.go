@@ -24,13 +24,13 @@ import (
 	"strings"
 	"time"
 
+	"github.com/talismancer/gvisor-ligolo/pkg/atomicbitops"
+	"github.com/talismancer/gvisor-ligolo/pkg/eventchannel"
+	"github.com/talismancer/gvisor-ligolo/pkg/log"
+	pb "github.com/talismancer/gvisor-ligolo/pkg/metric/metric_go_proto"
+	"github.com/talismancer/gvisor-ligolo/pkg/prometheus"
+	"github.com/talismancer/gvisor-ligolo/pkg/sync"
 	"google.golang.org/protobuf/types/known/timestamppb"
-	"github.com/nicocha30/gvisor-ligolo/pkg/atomicbitops"
-	"github.com/nicocha30/gvisor-ligolo/pkg/eventchannel"
-	"github.com/nicocha30/gvisor-ligolo/pkg/log"
-	pb "github.com/nicocha30/gvisor-ligolo/pkg/metric/metric_go_proto"
-	"github.com/nicocha30/gvisor-ligolo/pkg/prometheus"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sync"
 )
 
 var (

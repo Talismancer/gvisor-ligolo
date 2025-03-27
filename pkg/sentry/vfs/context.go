@@ -15,7 +15,7 @@
 package vfs
 
 import (
-	"github.com/nicocha30/gvisor-ligolo/pkg/context"
+	"github.com/talismancer/gvisor-ligolo/pkg/context"
 )
 
 // contextID is this package's type for context.Context.Value keys.

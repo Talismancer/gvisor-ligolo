@@ -19,13 +19,13 @@ package memevent
 import (
 	"time"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/eventchannel"
-	"github.com/nicocha30/gvisor-ligolo/pkg/log"
-	"github.com/nicocha30/gvisor-ligolo/pkg/metric"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/kernel"
-	pb "github.com/nicocha30/gvisor-ligolo/pkg/sentry/kernel/memevent/memory_events_go_proto"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/usage"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sync"
+	"github.com/talismancer/gvisor-ligolo/pkg/eventchannel"
+	"github.com/talismancer/gvisor-ligolo/pkg/log"
+	"github.com/talismancer/gvisor-ligolo/pkg/metric"
+	"github.com/talismancer/gvisor-ligolo/pkg/sentry/kernel"
+	pb "github.com/talismancer/gvisor-ligolo/pkg/sentry/kernel/memevent/memory_events_go_proto"
+	"github.com/talismancer/gvisor-ligolo/pkg/sentry/usage"
+	"github.com/talismancer/gvisor-ligolo/pkg/sync"
 )
 
 var totalTicks = metric.MustCreateNewUint64Metric("/memory_events/ticks", false /*sync*/, "Total number of memory event periods that have elapsed since startup.")

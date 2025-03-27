@@ -21,8 +21,8 @@ import (
 	"strings"
 
 	"github.com/google/subcommands"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/seccheck"
-	"github.com/nicocha30/gvisor-ligolo/runsc/flag"
+	"github.com/talismancer/gvisor-ligolo/pkg/sentry/seccheck"
+	"github.com/talismancer/gvisor-ligolo/runsc/flag"
 )
 
 // metadata implements subcommands.Command for the "metadata" command.

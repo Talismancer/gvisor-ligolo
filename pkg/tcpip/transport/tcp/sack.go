@@ -15,8 +15,8 @@
 package tcp
 
 import (
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/header"
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/seqnum"
+	"github.com/talismancer/gvisor-ligolo/pkg/tcpip/header"
+	"github.com/talismancer/gvisor-ligolo/pkg/tcpip/seqnum"
 )
 
 const (

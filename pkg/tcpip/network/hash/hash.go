@@ -18,8 +18,8 @@ package hash
 import (
 	"encoding/binary"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/rand"
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/header"
+	"github.com/talismancer/gvisor-ligolo/pkg/rand"
+	"github.com/talismancer/gvisor-ligolo/pkg/tcpip/header"
 )
 
 var hashIV = RandN32(1)[0]

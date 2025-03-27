@@ -19,10 +19,10 @@ import (
 	"runtime/trace"
 	"time"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/errors/linuxerr"
-	ktime "github.com/nicocha30/gvisor-ligolo/pkg/sentry/kernel/time"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sync"
-	"github.com/nicocha30/gvisor-ligolo/pkg/waiter"
+	"github.com/talismancer/gvisor-ligolo/pkg/errors/linuxerr"
+	ktime "github.com/talismancer/gvisor-ligolo/pkg/sentry/kernel/time"
+	"github.com/talismancer/gvisor-ligolo/pkg/sync"
+	"github.com/talismancer/gvisor-ligolo/pkg/waiter"
 )
 
 // BlockWithTimeout blocks t until an event is received from C, the application

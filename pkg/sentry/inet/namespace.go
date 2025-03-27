@@ -15,9 +15,9 @@
 package inet
 
 import (
-	"github.com/nicocha30/gvisor-ligolo/pkg/context"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/fsimpl/nsfs"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/kernel/auth"
+	"github.com/talismancer/gvisor-ligolo/pkg/context"
+	"github.com/talismancer/gvisor-ligolo/pkg/sentry/fsimpl/nsfs"
+	"github.com/talismancer/gvisor-ligolo/pkg/sentry/kernel/auth"
 )
 
 // Namespace represents a network namespace. See network_namespaces(7).

@@ -21,12 +21,12 @@ import (
 	"fmt"
 	"runtime"
 
+	"github.com/talismancer/gvisor-ligolo/pkg/abi/linux"
+	"github.com/talismancer/gvisor-ligolo/pkg/hostarch"
+	"github.com/talismancer/gvisor-ligolo/pkg/ring0"
+	"github.com/talismancer/gvisor-ligolo/pkg/ring0/pagetables"
+	"github.com/talismancer/gvisor-ligolo/pkg/sentry/platform"
 	"golang.org/x/sys/unix"
-	"github.com/nicocha30/gvisor-ligolo/pkg/abi/linux"
-	"github.com/nicocha30/gvisor-ligolo/pkg/hostarch"
-	"github.com/nicocha30/gvisor-ligolo/pkg/ring0"
-	"github.com/nicocha30/gvisor-ligolo/pkg/ring0/pagetables"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/platform"
 )
 
 type vCPUArchState struct {

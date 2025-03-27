@@ -20,7 +20,7 @@ package atomicbitops
 import (
 	"sync/atomic"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/sync"
+	"github.com/talismancer/gvisor-ligolo/pkg/sync"
 )
 
 // Note that this file is *identical* to 32b_32bit.go, as go_stateify gets

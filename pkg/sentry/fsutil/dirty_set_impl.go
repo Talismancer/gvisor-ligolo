@@ -1,12 +1,10 @@
 package fsutil
 
 import (
-	__generics_imported0 "github.com/nicocha30/gvisor-ligolo/pkg/sentry/memmap"
-)
-
-import (
 	"bytes"
 	"fmt"
+
+	__generics_imported0 "github.com/talismancer/gvisor-ligolo/pkg/sentry/memmap"
 )
 
 // trackGaps is an optional parameter.

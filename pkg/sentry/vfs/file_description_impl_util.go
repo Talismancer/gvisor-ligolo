@@ -19,15 +19,15 @@ import (
 	"io"
 	"math"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/abi/linux"
-	"github.com/nicocha30/gvisor-ligolo/pkg/context"
-	"github.com/nicocha30/gvisor-ligolo/pkg/errors/linuxerr"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/arch"
-	fslock "github.com/nicocha30/gvisor-ligolo/pkg/sentry/fsimpl/lock"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/memmap"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sync"
-	"github.com/nicocha30/gvisor-ligolo/pkg/usermem"
-	"github.com/nicocha30/gvisor-ligolo/pkg/waiter"
+	"github.com/talismancer/gvisor-ligolo/pkg/abi/linux"
+	"github.com/talismancer/gvisor-ligolo/pkg/context"
+	"github.com/talismancer/gvisor-ligolo/pkg/errors/linuxerr"
+	"github.com/talismancer/gvisor-ligolo/pkg/sentry/arch"
+	fslock "github.com/talismancer/gvisor-ligolo/pkg/sentry/fsimpl/lock"
+	"github.com/talismancer/gvisor-ligolo/pkg/sentry/memmap"
+	"github.com/talismancer/gvisor-ligolo/pkg/sync"
+	"github.com/talismancer/gvisor-ligolo/pkg/usermem"
+	"github.com/talismancer/gvisor-ligolo/pkg/waiter"
 )
 
 // The following design pattern is strongly recommended for filesystem

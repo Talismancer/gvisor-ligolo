@@ -17,8 +17,8 @@ package boot
 import (
 	"strings"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/strace"
-	"github.com/nicocha30/gvisor-ligolo/runsc/config"
+	"github.com/talismancer/gvisor-ligolo/pkg/sentry/strace"
+	"github.com/talismancer/gvisor-ligolo/runsc/config"
 )
 
 func enableStrace(conf *config.Config) error {

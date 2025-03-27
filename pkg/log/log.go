@@ -43,8 +43,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/linewriter"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sync"
+	"github.com/talismancer/gvisor-ligolo/pkg/linewriter"
+	"github.com/talismancer/gvisor-ligolo/pkg/sync"
 )
 
 // Level is the log level.

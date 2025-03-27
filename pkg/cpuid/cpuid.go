@@ -34,8 +34,8 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/log"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sync"
+	"github.com/talismancer/gvisor-ligolo/pkg/log"
+	"github.com/talismancer/gvisor-ligolo/pkg/sync"
 )
 
 // contextID is the package for context.Context.Value keys.

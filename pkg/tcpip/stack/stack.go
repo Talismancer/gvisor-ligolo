@@ -27,15 +27,15 @@ import (
 	"sync/atomic"
 	"time"
 
+	"github.com/talismancer/gvisor-ligolo/pkg/atomicbitops"
+	"github.com/talismancer/gvisor-ligolo/pkg/buffer"
+	"github.com/talismancer/gvisor-ligolo/pkg/log"
+	cryptorand "github.com/talismancer/gvisor-ligolo/pkg/rand"
+	"github.com/talismancer/gvisor-ligolo/pkg/tcpip"
+	"github.com/talismancer/gvisor-ligolo/pkg/tcpip/header"
+	"github.com/talismancer/gvisor-ligolo/pkg/tcpip/ports"
+	"github.com/talismancer/gvisor-ligolo/pkg/waiter"
 	"golang.org/x/time/rate"
-	"github.com/nicocha30/gvisor-ligolo/pkg/atomicbitops"
-	"github.com/nicocha30/gvisor-ligolo/pkg/buffer"
-	"github.com/nicocha30/gvisor-ligolo/pkg/log"
-	cryptorand "github.com/nicocha30/gvisor-ligolo/pkg/rand"
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip"
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/header"
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/ports"
-	"github.com/nicocha30/gvisor-ligolo/pkg/waiter"
 )
 
 const (

@@ -19,9 +19,9 @@ import (
 	"os"
 	"sync"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/fd"
-	"github.com/nicocha30/gvisor-ligolo/pkg/log"
-	"github.com/nicocha30/gvisor-ligolo/pkg/metric"
+	"github.com/talismancer/gvisor-ligolo/pkg/fd"
+	"github.com/talismancer/gvisor-ligolo/pkg/log"
+	"github.com/talismancer/gvisor-ligolo/pkg/metric"
 )
 
 // DefaultSessionName is the name of the only session that can exist in the

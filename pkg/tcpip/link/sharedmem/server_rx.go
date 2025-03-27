@@ -18,13 +18,13 @@
 package sharedmem
 
 import (
+	"github.com/talismancer/gvisor-ligolo/pkg/atomicbitops"
+	"github.com/talismancer/gvisor-ligolo/pkg/buffer"
+	"github.com/talismancer/gvisor-ligolo/pkg/cleanup"
+	"github.com/talismancer/gvisor-ligolo/pkg/eventfd"
+	"github.com/talismancer/gvisor-ligolo/pkg/tcpip/link/sharedmem/pipe"
+	"github.com/talismancer/gvisor-ligolo/pkg/tcpip/link/sharedmem/queue"
 	"golang.org/x/sys/unix"
-	"github.com/nicocha30/gvisor-ligolo/pkg/atomicbitops"
-	"github.com/nicocha30/gvisor-ligolo/pkg/buffer"
-	"github.com/nicocha30/gvisor-ligolo/pkg/cleanup"
-	"github.com/nicocha30/gvisor-ligolo/pkg/eventfd"
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/link/sharedmem/pipe"
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/link/sharedmem/queue"
 )
 
 type serverRx struct {

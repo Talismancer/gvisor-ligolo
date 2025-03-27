@@ -17,11 +17,11 @@ package accel
 import (
 	"fmt"
 
+	"github.com/talismancer/gvisor-ligolo/pkg/abi/linux"
+	"github.com/talismancer/gvisor-ligolo/pkg/context"
+	"github.com/talismancer/gvisor-ligolo/pkg/sentry/fsimpl/devtmpfs"
+	"github.com/talismancer/gvisor-ligolo/pkg/sentry/vfs"
 	"golang.org/x/sys/unix"
-	"github.com/nicocha30/gvisor-ligolo/pkg/abi/linux"
-	"github.com/nicocha30/gvisor-ligolo/pkg/context"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/fsimpl/devtmpfs"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/vfs"
 )
 
 // accelDevice implements vfs.Device for /dev/accel[0-9]+.

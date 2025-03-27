@@ -23,7 +23,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/log"
+	"github.com/talismancer/gvisor-ligolo/pkg/log"
 )
 
 // hostFeatureSet is initialized at startup.

@@ -18,8 +18,8 @@
 package filter
 
 import (
+	"github.com/talismancer/gvisor-ligolo/pkg/seccomp"
 	"golang.org/x/sys/unix"
-	"github.com/nicocha30/gvisor-ligolo/pkg/seccomp"
 )
 
 // instrumentationFilters returns additional filters for syscalls used by ASAN.

@@ -3,7 +3,7 @@
 package tundev
 
 import (
-	"github.com/nicocha30/gvisor-ligolo/pkg/state"
+	"github.com/talismancer/gvisor-ligolo/pkg/state"
 )
 
 func (t *tunDevice) StateTypeName() string {

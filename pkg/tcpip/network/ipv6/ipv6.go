@@ -24,17 +24,17 @@ import (
 	"sort"
 	"time"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/atomicbitops"
-	"github.com/nicocha30/gvisor-ligolo/pkg/buffer"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sync"
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip"
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/header"
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/header/parse"
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/network/hash"
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/network/internal/fragmentation"
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/network/internal/ip"
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/network/internal/multicast"
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/stack"
+	"github.com/talismancer/gvisor-ligolo/pkg/atomicbitops"
+	"github.com/talismancer/gvisor-ligolo/pkg/buffer"
+	"github.com/talismancer/gvisor-ligolo/pkg/sync"
+	"github.com/talismancer/gvisor-ligolo/pkg/tcpip"
+	"github.com/talismancer/gvisor-ligolo/pkg/tcpip/header"
+	"github.com/talismancer/gvisor-ligolo/pkg/tcpip/header/parse"
+	"github.com/talismancer/gvisor-ligolo/pkg/tcpip/network/hash"
+	"github.com/talismancer/gvisor-ligolo/pkg/tcpip/network/internal/fragmentation"
+	"github.com/talismancer/gvisor-ligolo/pkg/tcpip/network/internal/ip"
+	"github.com/talismancer/gvisor-ligolo/pkg/tcpip/network/internal/multicast"
+	"github.com/talismancer/gvisor-ligolo/pkg/tcpip/stack"
 )
 
 const (

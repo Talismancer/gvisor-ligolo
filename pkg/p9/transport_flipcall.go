@@ -17,11 +17,11 @@ package p9
 import (
 	"runtime"
 
+	"github.com/talismancer/gvisor-ligolo/pkg/fd"
+	"github.com/talismancer/gvisor-ligolo/pkg/fdchannel"
+	"github.com/talismancer/gvisor-ligolo/pkg/flipcall"
+	"github.com/talismancer/gvisor-ligolo/pkg/log"
 	"golang.org/x/sys/unix"
-	"github.com/nicocha30/gvisor-ligolo/pkg/fd"
-	"github.com/nicocha30/gvisor-ligolo/pkg/fdchannel"
-	"github.com/nicocha30/gvisor-ligolo/pkg/flipcall"
-	"github.com/nicocha30/gvisor-ligolo/pkg/log"
 )
 
 // channelsPerClient is the number of channels to create per client.

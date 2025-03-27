@@ -3,7 +3,7 @@
 package tcpip
 
 import (
-	"github.com/nicocha30/gvisor-ligolo/pkg/state"
+	"github.com/talismancer/gvisor-ligolo/pkg/state"
 )
 
 func (e *ErrAborted) StateTypeName() string {

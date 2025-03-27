@@ -17,9 +17,9 @@ package kernel
 import (
 	"math"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/abi/linux"
-	"github.com/nicocha30/gvisor-ligolo/pkg/errors/linuxerr"
-	ktime "github.com/nicocha30/gvisor-ligolo/pkg/sentry/kernel/time"
+	"github.com/talismancer/gvisor-ligolo/pkg/abi/linux"
+	"github.com/talismancer/gvisor-ligolo/pkg/errors/linuxerr"
+	ktime "github.com/talismancer/gvisor-ligolo/pkg/sentry/kernel/time"
 )
 
 // IntervalTimer represents a POSIX interval timer as described by

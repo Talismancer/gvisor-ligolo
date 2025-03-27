@@ -19,8 +19,8 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/cleanup"
-	"github.com/nicocha30/gvisor-ligolo/pkg/context"
+	"github.com/talismancer/gvisor-ligolo/pkg/cleanup"
+	"github.com/talismancer/gvisor-ligolo/pkg/context"
 )
 
 // proxyConn is a port forwarding connection. It is used to manage the

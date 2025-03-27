@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip/checksum"
+	"github.com/talismancer/gvisor-ligolo/pkg/tcpip/checksum"
 )
 
 // Buffer is a non-linear buffer.

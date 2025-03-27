@@ -23,7 +23,7 @@ package marshal
 import (
 	"io"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/hostarch"
+	"github.com/talismancer/gvisor-ligolo/pkg/hostarch"
 )
 
 // CopyContext defines the memory operations required to marshal to and from

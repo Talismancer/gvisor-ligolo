@@ -15,7 +15,7 @@
 package stack
 
 import (
-	"github.com/nicocha30/gvisor-ligolo/pkg/tcpip"
+	"github.com/talismancer/gvisor-ligolo/pkg/tcpip"
 )
 
 type sharedStats struct {

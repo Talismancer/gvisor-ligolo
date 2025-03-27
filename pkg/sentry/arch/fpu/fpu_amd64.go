@@ -21,12 +21,12 @@ import (
 	"fmt"
 	"io"
 
+	"github.com/talismancer/gvisor-ligolo/pkg/cpuid"
+	"github.com/talismancer/gvisor-ligolo/pkg/errors/linuxerr"
+	"github.com/talismancer/gvisor-ligolo/pkg/hostarch"
+	"github.com/talismancer/gvisor-ligolo/pkg/safecopy"
+	"github.com/talismancer/gvisor-ligolo/pkg/sync"
 	"golang.org/x/sys/unix"
-	"github.com/nicocha30/gvisor-ligolo/pkg/cpuid"
-	"github.com/nicocha30/gvisor-ligolo/pkg/errors/linuxerr"
-	"github.com/nicocha30/gvisor-ligolo/pkg/hostarch"
-	"github.com/nicocha30/gvisor-ligolo/pkg/safecopy"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sync"
 )
 
 // FPSoftwareFrame is equivalent to struct _fpx_sw_bytes, the data stored by

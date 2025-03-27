@@ -15,7 +15,7 @@
 package limits
 
 import (
-	"github.com/nicocha30/gvisor-ligolo/pkg/context"
+	"github.com/talismancer/gvisor-ligolo/pkg/context"
 )
 
 // contextID is the limit package's type for context.Context.Value keys.

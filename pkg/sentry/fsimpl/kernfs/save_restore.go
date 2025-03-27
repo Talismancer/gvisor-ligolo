@@ -15,7 +15,7 @@
 package kernfs
 
 import (
-	"github.com/nicocha30/gvisor-ligolo/pkg/refs"
+	"github.com/talismancer/gvisor-ligolo/pkg/refs"
 )
 
 // afterLoad is invoked by stateify.

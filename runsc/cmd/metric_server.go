@@ -18,10 +18,10 @@ import (
 	"context"
 
 	"github.com/google/subcommands"
-	"github.com/nicocha30/gvisor-ligolo/runsc/cmd/util"
-	"github.com/nicocha30/gvisor-ligolo/runsc/config"
-	"github.com/nicocha30/gvisor-ligolo/runsc/flag"
-	"github.com/nicocha30/gvisor-ligolo/runsc/metricserver"
+	"github.com/talismancer/gvisor-ligolo/runsc/cmd/util"
+	"github.com/talismancer/gvisor-ligolo/runsc/config"
+	"github.com/talismancer/gvisor-ligolo/runsc/flag"
+	"github.com/talismancer/gvisor-ligolo/runsc/metricserver"
 )
 
 // MetricServer implements subcommands.Command for the "metric-server" command.

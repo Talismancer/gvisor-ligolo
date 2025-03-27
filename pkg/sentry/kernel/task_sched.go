@@ -21,13 +21,13 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/abi/linux"
-	"github.com/nicocha30/gvisor-ligolo/pkg/errors/linuxerr"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/hostcpu"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/kernel/sched"
-	ktime "github.com/nicocha30/gvisor-ligolo/pkg/sentry/kernel/time"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/limits"
-	"github.com/nicocha30/gvisor-ligolo/pkg/sentry/usage"
+	"github.com/talismancer/gvisor-ligolo/pkg/abi/linux"
+	"github.com/talismancer/gvisor-ligolo/pkg/errors/linuxerr"
+	"github.com/talismancer/gvisor-ligolo/pkg/sentry/hostcpu"
+	"github.com/talismancer/gvisor-ligolo/pkg/sentry/kernel/sched"
+	ktime "github.com/talismancer/gvisor-ligolo/pkg/sentry/kernel/time"
+	"github.com/talismancer/gvisor-ligolo/pkg/sentry/limits"
+	"github.com/talismancer/gvisor-ligolo/pkg/sentry/usage"
 )
 
 // TaskGoroutineState is a coarse representation of the current execution

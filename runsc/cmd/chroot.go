@@ -23,11 +23,11 @@ import (
 	"regexp"
 
 	specs "github.com/opencontainers/runtime-spec/specs-go"
+	"github.com/talismancer/gvisor-ligolo/pkg/log"
+	"github.com/talismancer/gvisor-ligolo/runsc/cmd/util"
+	"github.com/talismancer/gvisor-ligolo/runsc/config"
+	"github.com/talismancer/gvisor-ligolo/runsc/specutils"
 	"golang.org/x/sys/unix"
-	"github.com/nicocha30/gvisor-ligolo/pkg/log"
-	"github.com/nicocha30/gvisor-ligolo/runsc/cmd/util"
-	"github.com/nicocha30/gvisor-ligolo/runsc/config"
-	"github.com/nicocha30/gvisor-ligolo/runsc/specutils"
 )
 
 // mountInChroot creates the destination mount point in the given chroot and

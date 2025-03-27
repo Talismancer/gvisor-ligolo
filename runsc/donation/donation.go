@@ -21,8 +21,8 @@ import (
 	"os"
 	"os/exec"
 
-	"github.com/nicocha30/gvisor-ligolo/pkg/log"
-	"github.com/nicocha30/gvisor-ligolo/runsc/specutils"
+	"github.com/talismancer/gvisor-ligolo/pkg/log"
+	"github.com/talismancer/gvisor-ligolo/runsc/specutils"
 )
 
 // LogDonations logs the FDs we are donating in the command.
